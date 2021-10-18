@@ -2,8 +2,8 @@
 
 $request = [
 
-    'account_number' => "0690000032",
-    'account_bank' => "044"
+    'account_number' => "2115376418",
+    'account_bank' => "033"
 ];
 
 $curl = curl_init();
@@ -19,12 +19,12 @@ $curl = curl_init();
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS => json_encode($request),
     CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer FLWSECK_TEST-SANDBOXDEMOKEY-X',
+        'Authorization: Bearer FLWSECK-1109e7cb4c9e1871e91a90f1d91c8479-X',
         'Content-Type: application/json'
     ),
     ));
 
-    $response = curl_exec($curl);
+   echo $response = curl_exec($curl);
 
     curl_close($curl);
     
