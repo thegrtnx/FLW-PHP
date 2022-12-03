@@ -19,7 +19,7 @@ $curl = curl_init();
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS => json_encode($request),
     CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer FLWSECK-1109e7cb4c9e1871e91a90f1d91c8479-X',
+        'Authorization: Bearer SECRET KEY',
         'Content-Type: application/json'
     ),
     ));
